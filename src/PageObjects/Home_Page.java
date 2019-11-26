@@ -18,5 +18,19 @@ public class Home_Page {
 		return element;
 
 }
+		public static WebElement email(WebDriver driver){
+
+			element = driver.findElement(By.xpath("(//input[@id='input-email'])[3]"));
+
+			return element;
+
+	}
+		public static WebElement password(WebDriver driver){
+
+			element = driver.findElement(By.xpath("(//input[@id='input-password'])[3]"));
+
+			return element;
+
+	}
 
 }
